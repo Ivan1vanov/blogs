@@ -1,0 +1,55 @@
+
+
+.bodyPost {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 600px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.actionContainer {
+    display: flex;
+
+}
+
+.actionBlock {
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.actionBlock:first-child {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.actionBlock:last-child {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.postInfoBlock {
+    padding: 10px;
+}
+
+.unlikeButton {
+    margin: auto;
+    font-size: 25px;
+}
+
+.likedButton {
+    margin: auto;
+    font-size: 25px;
+    color: red
+}
